@@ -3,7 +3,7 @@ filebucket { 'main':
   path   => false,
 }
 
-Package { allow_virtual => false }
+Package { allow_virtual => true }
 
 File { backup => 'main' }
 

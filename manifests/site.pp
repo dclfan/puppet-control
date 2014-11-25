@@ -1,5 +1,5 @@
 filebucket { 'main':
-  server => 'puppet.nso.edu'
+  server => 'puppet.nso.edu',
   path   => false,
 }
 

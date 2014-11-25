@@ -3,6 +3,8 @@ filebucket { 'main':
   path   => false,
 }
 
+Package { allow_virtual => false }
+
 File { backup => 'main' }
 
 hiera_include('classes')

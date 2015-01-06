@@ -1,0 +1,6 @@
+---
+network::network::interface:
+  'eno1':
+     ipaddress: '172.21.15.165'
+     netmask: '255.255.255.128'
+     gateway: '172.21.15.129'

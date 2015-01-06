@@ -8,6 +8,8 @@ mod "puppetlabs/inifile"
 mod "puppetlabs/concat"
 mod "trlinkin/nsswitch"
 mod "trlinkin/validate_multi"
+mod "example42/stdmod"
+mod "example42/network"
 
 mod 'motd',
   :git => 'git://github.com/tonytivo/puppet-motd'

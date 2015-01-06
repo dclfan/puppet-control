@@ -7,6 +7,7 @@ mod "puppetlabs/postgresql"
 mod "puppetlabs/inifile"
 mod "puppetlabs/concat"
 mod "trlinkin/nsswitch"
+mod "trlinkin/validate_multi"
 
 mod 'motd',
   :git => 'git://github.com/tonytivo/puppet-motd'

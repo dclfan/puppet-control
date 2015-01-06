@@ -8,3 +8,7 @@ Package { allow_virtual => true }
 File { backup => 'main' }
 
 hiera_include('classes')
+
+node 'cicley' {
+  include roles::client::tony
+}

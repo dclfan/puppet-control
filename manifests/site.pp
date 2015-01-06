@@ -11,6 +11,6 @@ node 'cicley' {
   include roles::client::tony
 }
 
-node default {
+node 'default' {
   include profiles::base
 }

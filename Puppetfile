@@ -9,3 +9,9 @@ mod "puppetlabs/concat"
 
 mod 'motd',
   :git => 'git://github.com/tonytivo/puppet-motd'
+
+mod 'profiles',
+  :git => 'git://github.com/tonytivo/puppet-profiles'
+
+mod 'roles',
+  :git => 'git://github.com/tonytivo/puppet-roles'

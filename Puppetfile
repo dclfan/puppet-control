@@ -10,6 +10,9 @@ mod "trlinkin/nsswitch"
 mod "trlinkin/validate_multi"
 mod "example42/stdmod"
 mod "example42/network"
+mod "puppetlabs/apt"
+mod "stahnma/epel"
+mod "garethr/docker"
 
 mod 'motd',
   :git => 'git://github.com/tonytivo/puppet-motd'
